@@ -1,0 +1,60 @@
+@media screen and (max-width:1680px) {
+    .container { max-width: 1400px; }
+}/*max-width:1680px*/
+
+@media screen and (max-width:1440px) {
+    .single-about-img img { max-width: 90%; }
+    .single-about-img:before, .about-list-icon { width: 100%; }
+}/*max-width:1440px*/
+
+@media screen and (max-width:1199px) {
+    nav.navbar.bootsnav ul.nav > li > a { padding: 20px 10px; font-size: 14px; }
+    .welcome-hero { height: 700px; }
+    .timeline-content span > i, .experience-time span > i { left: -12%; }
+}/*max-width:1199px*/
+
+@media screen and (max-width:1024px) {
+    .header-text h2 { font-size: 40px; }
+    .header-text p { font-size: 18px; }
+    .navbar-toggle { margin-top: 15px; }
+}/*max-width:1024px*/
+
+@media screen and (max-width:991px) {
+    .experience-time-responsive { display: block; }
+    .experience-time-main { display: none; }
+    .experience-time, .timeline-content { text-align: left; margin-bottom: 15px; margin-left: 20px; }
+    .single-horizontal-timeline .experience-time, .single-horizontal-timeline .timeline-content { margin: 0; }
+    .main-timeline:before { left: 1%; }
+}/*max-width:991px*/
+
+@media screen and (max-width:768px) {
+    .header-text h2 { font-size: 36px; }
+    .header-text p { font-size: 16px; }
+    .about-content { flex-direction: column; align-items: center; }
+}/*max-width:768px*/
+
+@media screen and (max-width:767px) {
+    .single-about-img { max-width: 100%; }
+    .experience-time span > i, .timeline-content span > i, .main-timeline:before { display: none; }
+    .timeline-content, .experience-time { margin-left: 0; }
+    .isotope .item { max-width: 100%; margin: 0 auto 20px; }
+    .single-profile { max-width: 100%; margin: 20px auto; }
+}/*max-width:767px*/
+
+@media screen and (max-width: 540px) {
+    .subscribe-title h2 { font-size: 22px; }
+    .contact-form .form-control { padding: 15px; }
+    .header-text a { width: 180px; height: 50px; line-height: 50px; }
+}/*max-width:540px*/
+
+@media screen and (max-width: 480px) {
+    .navbar-toggle { float: none; margin: 10px auto; }
+    .contact-add-info p { font-size: 14px; }
+}/*max-width:480px*/
+
+@media screen and (max-width: 320px) {
+    .header-text h2 { font-size: 28px; }
+    .header-text p { font-size: 14px; }
+    .contact-add-head h3 { font-size: 20px; }
+}/*max-width:320px*/
+
